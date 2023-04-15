@@ -1,14 +1,8 @@
 import React from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../styles/course.css";
 
 const Course = ({ course }) => {
-  const navigate = useNavigate();
-
-  const handleStartCourse = () => {
-    navigate("/steps");
-  };
-
   return (
     <>
       <div className='card w-300 m-2'>

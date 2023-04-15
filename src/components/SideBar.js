@@ -8,7 +8,7 @@ const SideBar = ({ steps }) => {
 
   const { selectedStep } = useContext(stepContext);
 
-  const [currentStep, setCurrentStep] = selectedStep;
+  const [setCurrentStep] = selectedStep;
 
   const handleCurrentStep = (index) => {
     setSelectedItemIndex(index);
